@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link.active {
+    color: #0d6efd !important;
+    font-weight: bold;
+}
+
+.back-link {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: #333;
+}
+
+.hero-section {
+    background-color: #e8eef7;
+    padding: 30px 20px;
+}
+
+.dog-icon-box {
+    background-color: #dbeafe;
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.hero-section h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.hero-section .meta {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.card-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.marker-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.marker-row:last-of-type {
+    border-bottom: none;
+}
+
+.marker-name {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.marker-desc {
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.marker-value {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.view-all-link {
+    color: #22c55e;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.view-all-link:hover {
+    text-decoration: underline;
+}
+
+.stat-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+}
+
+.stat-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.health-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.health-item:last-of-type {
+    border-bottom: none;
+}
+
+.health-name {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.health-based {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.badge-low-risk {
+    background-color: #dcfce7;
+    color: #16a34a;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.badge-carrier {
+    background-color: #fef9c3;
+    color: #b45309;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.badge-clear {
+    background-color: #f0fdf4;
+    color: #15803d;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.view-health-link {
+    color: #f43f5e;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.view-health-link:hover {
+    text-decoration: underline;
+}
+
+.breed-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.breed-bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.bar-golden {
+    background-color: #f59e0b;
+    width: 87.5%;
+}
+
+.bar-labrador {
+    background-color: #f59e0b;
+    width: 10.2%;
+}
+
+.bar-other {
+    background-color: #f59e0b;
+    width: 2.3%;
+}
+
+.data-source-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 0.85rem;
+}
+
+.data-source-box .ds-title {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.ds-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #555;
+}
+
+.ds-row:last-child {
+    border-bottom: none;
+}
+
+.main-section {
+    padding: 30px 0;
+}
