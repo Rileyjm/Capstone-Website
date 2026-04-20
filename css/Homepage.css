@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+.hero-section {
+    background-color: #e8eef7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.search-card {
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+}
+
+.card-snp {
+    background-color: #dbeafe;
+}
+
+.card-gene {
+    background-color: #dcfce7;
+}
+
+.card-breed {
+    background-color: #fef3c7;
+}
+
+.card-disease {
+    background-color: #ffe4e6;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card-description {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.btn-snp {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.btn-gene {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.btn-breed {
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.btn-disease {
+    background-color: #f43f5e;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.cards-section {
+    padding: 50px 20px;
+}
