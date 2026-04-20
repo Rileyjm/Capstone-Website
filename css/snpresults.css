@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.back-link {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.search-bar-section {
+    background-color: #e8eef7;
+    padding: 20px;
+}
+
+.search-input {
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    width: 100%;
+    outline: none;
+}
+
+.filter-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9rem;
+}
+
+.results-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.results-count {
+    color: #777;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+.snp-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 14px;
+}
+
+.snp-id {
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-right: 6px;
+}
+
+.badge-missense { background-color: #dbeafe; color: #1d4ed8; font-size: 0.72rem; padding: 2px 8px; border-radius: 20px; }
+.badge-regulatory { background-color: #f3e8ff; color: #7e22ce; font-size: 0.72rem; padding: 2px 8px; border-radius: 20px; }
+.badge-intronic { background-color: #f0fdf4; color: #15803d; font-size: 0.72rem; padding: 2px 8px; border-radius: 20px; }
+
+.snp-position {
+    color: #555;
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+}
+
+.snp-gene {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+.gene-link { color: #3b82f6; text-decoration: none; }
+.gene-link:hover { text-decoration: underline; }
+
+.snp-divider {
+    border: none;
+    border-top: 1px solid #f0f0f0;
+    margin: 10px 0;
+}
+
+.snp-meta-label {
+    color: #aaa;
+    font-size: 0.78rem;
+    margin-bottom: 3px;
+}
+
+.snp-meta-value {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.view-details-link { color: #3b82f6; text-decoration: none; font-size: 0.85rem; }
+.view-details-link:hover { text-decoration: underline; }
+
+.detail-section {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 22px;
+    margin-top: 10px;
+}
+
+.detail-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.detail-subtitle {
+    color: #777;
+    font-size: 0.85rem;
+    margin-bottom: 18px;
+}
+
+.info-box {
+    border-radius: 8px;
+    padding: 14px;
+    height: 100%;
+}
+
+.info-box-blue { background-color: #f0f7ff; }
+.info-box-green { background-color: #f0fdf4; }
+.info-box-yellow { background-color: #fffbeb; }
+
+.info-box-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-row {
+    font-size: 0.82rem;
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    color: #555;
+}
+
+.info-row:last-child { border-bottom: none; }
+
+.gene-val { color: #3b82f6; }
+
+.phenotype-box {
+    background-color: #f8faff;
+    border: 1px solid #e0e7ff;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.phenotype-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.phenotype-desc {
+    font-size: 0.78rem;
+    color: #777;
+    margin: 0;
+}
+
+.associated-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.results-section {
+    padding: 25px 0 40px;
+}

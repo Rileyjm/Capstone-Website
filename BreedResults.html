@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labrador Retriever - Canine Genomics Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/breedresults.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🐾 DogDecode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3 mb-2">
+        <a href="index.html" class="back-link">← Back to Search</a>
+    </div>
+
+    <div class="hero-section">
+        <div class="container">
+            <div class="d-flex gap-4 align-items-start">
+                <div class="breed-img-placeholder">🐕</div>
+                <div>
+                    <p class="breed-name mb-1">Labrador Retriever <span class="badge-popular">Popular breed</span></p>
+                    <p class="breed-origin">Origin: Newfoundland, Canada &nbsp;•&nbsp; Size: Large &nbsp;•&nbsp; Group: Sporting</p>
+                    <p class="breed-description">The Labrador Retriever is one of the most popular dog breeds worldwide. Known for their friendly nature, intelligence, and versatility as family pets, service dogs, and working dogs.</p>
+                    <div>
+                        <button class="btn-sample">View Sample Profiles</button>
+                        <button class="btn-export">Export Breed Data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-bar">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-3">
+                    <p class="stat-number blue">1,247</p>
+                    <p class="stat-label">Samples in database</p>
+                </div>
+                <div class="col-3">
+                    <p class="stat-number green">89</p>
+                    <p class="stat-label">Genetic markers tracked</p>
+                </div>
+                <div class="col-3">
+                    <p class="stat-number orange">247</p>
+                    <p class="stat-label">Research studies</p>
+                </div>
+                <div class="col-3">
+                    <p class="stat-number red">12</p>
+                    <p class="stat-label">Known health risks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-section">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-12 col-lg-7">
+
+                    <div class="card-section-green">
+                        <p class="section-title">📈 Key Genetic Markers</p>
+                        <p class="section-subtitle">Breed-specific variants and their frequencies</p>
+
+                        <div class="marker-row">
+                            <div>
+                                <div class="d-flex align-items-center gap-1 mb-1">
+                                    <span class="marker-name">MC1R</span>
+                                    <span class="marker-allele">E/e</span>
+                                    <span class="badge-high-impact">High impact</span>
+                                </div>
+                                <p class="marker-desc">Yellow coat color</p>
+                            </div>
+                            <span class="marker-pct">68%</span>
+                        </div>
+
+                        <div class="marker-row">
+                            <div>
+                                <div class="d-flex align-items-center gap-1 mb-1">
+                                    <span class="marker-name">TYRP1</span>
+                                    <span class="marker-allele">B/b</span>
+                                    <span class="badge-high-impact">High impact</span>
+                                </div>
+                                <p class="marker-desc">Brown pigment</p>
+                            </div>
+                            <span class="marker-pct">42%</span>
+                        </div>
+
+                        <div class="marker-row">
+                            <div>
+                                <div class="d-flex align-items-center gap-1 mb-1">
+                                    <span class="marker-name">POMC</span>
+                                    <span class="marker-allele">C/C</span>
+                                    <span class="badge-medium-impact">Medium impact</span>
+                                </div>
+                                <p class="marker-desc">Body weight regulation</p>
+                            </div>
+                            <span class="marker-pct">89%</span>
+                        </div>
+
+                        <div class="marker-row">
+                            <div>
+                                <div class="d-flex align-items-center gap-1 mb-1">
+                                    <span class="marker-name">IGF1</span>
+                                    <span class="marker-allele">I/I</span>
+                                    <span class="badge-high-impact">High impact</span>
+                                </div>
+                                <p class="marker-desc">Large body size</p>
+                            </div>
+                            <span class="marker-pct">95%</span>
+                        </div>
+
+                        <div class="marker-row">
+                            <div>
+                                <div class="d-flex align-items-center gap-1 mb-1">
+                                    <span class="marker-name">FGF5</span>
+                                    <span class="marker-allele">T/T</span>
+                                    <span class="badge-low-impact">Low impact</span>
+                                </div>
+                                <p class="marker-desc">Short coat length</p>
+                            </div>
+                            <span class="marker-pct">12%</span>
+                        </div>
+
+                        <div class="mt-3">
+                            <a href="#" class="view-all-link">View all 89 genetic markers →</a>
+                        </div>
+                    </div>
+
+                    <div class="card-section-pink">
+                        <p class="section-title">⚠️ Health Predispositions</p>
+                        <p class="section-subtitle">Common genetic health conditions in this breed</p>
+
+                        <div class="health-row">
+                            <div>
+                                <p class="health-name">Hip Dysplasia</p>
+                                <p class="health-meta">Prevalence: 19.8% &nbsp;&nbsp; Markers: 6</p>
+                            </div>
+                            <span class="badge-high-risk">High risk</span>
+                        </div>
+
+                        <div class="health-row">
+                            <div>
+                                <p class="health-name">Elbow Dysplasia</p>
+                                <p class="health-meta">Prevalence: 12.4% &nbsp;&nbsp; Markers: 4</p>
+                            </div>
+                            <span class="badge-moderate-risk">Moderate risk</span>
+                        </div>
+
+                        <div class="health-row">
+                            <div>
+                                <p class="health-name">Progressive Retinal Atrophy</p>
+                                <p class="health-meta">Prevalence: 3.2% &nbsp;&nbsp; Markers: 2</p>
+                            </div>
+                            <span class="badge-low-risk">Low risk</span>
+                        </div>
+
+                        <div class="health-row">
+                            <div>
+                                <p class="health-name">Exercise-Induced Collapse</p>
+                                <p class="health-meta">Prevalence: 8.5% &nbsp;&nbsp; Markers: 3</p>
+                            </div>
+                            <span class="badge-moderate-risk">Moderate risk</span>
+                        </div>
+
+                        <div class="mt-3">
+                            <a href="#" class="view-health-link">View complete health profile →</a>
+                        </div>
+                    </div>
+
+                    <div class="card-section">
+                        <p class="section-title">Breed Standard & Traits</p>
+                        <div class="traits-grid">
+                            <div class="traits-box">
+                                <p class="traits-box-title">Physical Characteristics</p>
+                                <div class="trait-row"><span>Height (Male):</span><span>22.5-24.5 in</span></div>
+                                <div class="trait-row"><span>Height (Female):</span><span>21.5-23.5 in</span></div>
+                                <div class="trait-row"><span>Weight:</span><span>55-80 lbs</span></div>
+                                <div class="trait-row"><span>Lifespan:</span><span>10-12 years</span></div>
+                            </div>
+                            <div class="traits-box">
+                                <p class="traits-box-title">Coat & Color</p>
+                                <div class="trait-row"><span>Coat Type:</span><span>Short, dense</span></div>
+                                <div class="trait-row"><span>Colors:</span><span>Black, Yellow, Chocolate</span></div>
+                                <div class="trait-row"><span>Shedding:</span><span>Moderate to high</span></div>
+                                <div class="trait-row"><span>Grooming:</span><span>Weekly brushing</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-lg-5">
+
+                    <div class="card-section">
+                        <p class="section-title">Classification</p>
+                        <p class="info-label">AKC Group</p>
+                        <p class="info-value">Sporting Group</p>
+                        <p class="info-label">Original Purpose</p>
+                        <p class="info-value">Retrieving game for hunters</p>
+                        <p class="info-label">Temperament</p>
+                        <p class="info-value">Friendly, active, outgoing</p>
+                        <p class="info-label">Energy Level</p>
+                        <div class="energy-bar"></div>
+                    </div>
+
+                    <div class="card-section">
+                        <p class="section-title">Genetically Similar Breeds</p>
+
+                        <div class="similar-breed-row">
+                            <div>
+                                <p class="similar-breed-name">Golden Retriever</p>
+                                <p class="similar-breed-meta">847 shared markers</p>
+                            </div>
+                            <span class="similar-pct">92%</span>
+                        </div>
+
+                        <div class="similar-breed-row">
+                            <div>
+                                <p class="similar-breed-name">Flat-Coated Retriever</p>
+                                <p class="similar-breed-meta">782 shared markers</p>
+                            </div>
+                            <span class="similar-pct">87%</span>
+                        </div>
+
+                        <div class="similar-breed-row">
+                            <div>
+                                <p class="similar-breed-name">Chesapeake Bay Retriever</p>
+                                <p class="similar-breed-meta">756 shared markers</p>
+                            </div>
+                            <span class="similar-pct">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="card-section">
+                        <p class="section-title">Population Data</p>
+
+                        <div class="pop-bar-label">
+                            <span>North America</span>
+                            <span>68%</span>
+                        </div>
+                        <div class="pop-bar" style="width: 68%;"></div>
+
+                        <div class="pop-bar-label">
+                            <span>Europe</span>
+                            <span>22%</span>
+                        </div>
+                        <div class="pop-bar" style="width: 22%;"></div>
+
+                        <div class="pop-bar-label">
+                            <span>Other</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="pop-bar" style="width: 10%;"></div>
+
+                        <p class="pop-note">Based on 1,247 samples</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

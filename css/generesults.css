@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.back-link {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.hero-section {
+    background-color: #f0fdf4;
+    padding: 25px 20px;
+    border-bottom: 1px solid #bbf7d0;
+}
+
+.gene-icon {
+    background-color: #dcfce7;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.gene-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.badge-active { background-color: #dcfce7; color: #15803d; font-size: 0.72rem; padding: 2px 9px; border-radius: 20px; margin-left: 8px; }
+
+.gene-full-name {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.gene-description {
+    color: #444;
+    font-size: 0.87rem;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.btn-literature {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+}
+
+.btn-ncbi {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.card-green {
+    background-color: #f0fdf4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.card-yellow {
+    background-color: #fffbeb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.card-subtitle {
+    font-size: 0.78rem;
+    color: #777;
+    margin-bottom: 14px;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-bottom: 2px;
+}
+
+.info-value {
+    font-size: 0.88rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.snp-box {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.snp-id {
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-right: 6px;
+}
+
+.badge-missense { background-color: #dbeafe; color: #1d4ed8; font-size: 0.7rem; padding: 2px 7px; border-radius: 20px; }
+.badge-synonymous { background-color: #f3e8ff; color: #7e22ce; font-size: 0.7rem; padding: 2px 7px; border-radius: 20px; }
+.badge-regulatory { background-color: #f0fdf4; color: #15803d; font-size: 0.7rem; padding: 2px 7px; border-radius: 20px; }
+
+.snp-meta-label {
+    color: #aaa;
+    font-size: 0.75rem;
+    margin-bottom: 2px;
+}
+
+.snp-meta-value {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.breed-box {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.breed-name {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.breed-desc {
+    color: #555;
+    font-size: 0.83rem;
+    margin-bottom: 3px;
+}
+
+.breed-meta {
+    color: #aaa;
+    font-size: 0.78rem;
+    margin: 0;
+}
+
+.badge-high-freq { background-color: #fee2e2; color: #b91c1c; font-size: 0.7rem; padding: 2px 8px; border-radius: 20px; }
+.badge-moderate { background-color: #fef3c7; color: #b45309; font-size: 0.7rem; padding: 2px 8px; border-radius: 20px; }
+.badge-variable { background-color: #f3e8ff; color: #7e22ce; font-size: 0.7rem; padding: 2px 8px; border-radius: 20px; }
+
+.stat-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #22c55e;
+    margin-bottom: 2px;
+}
+
+.stat-label {
+    font-size: 0.82rem;
+    color: #555;
+    margin-bottom: 14px;
+}
+
+.related-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.related-row:last-of-type {
+    border-bottom: none;
+}
+
+.related-name {
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-bottom: 2px;
+}
+
+.related-desc {
+    font-size: 0.78rem;
+    color: #888;
+    margin: 0;
+}
+
+.phenotype-item {
+    font-size: 0.88rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.view-link-green { color: #22c55e; text-decoration: none; font-size: 0.85rem; }
+
+.main-section {
+    padding: 25px 0 40px;
+}

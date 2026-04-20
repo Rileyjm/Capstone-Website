@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.back-link {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.hero-section {
+    background-color: #fffbeb;
+    padding: 25px 20px;
+    border-bottom: 1px solid #fde68a;
+}
+
+.breed-icon {
+    background-color: #fef3c7;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.breed-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.badge-popular { background-color: #fef3c7; color: #b45309; font-size: 0.72rem; padding: 2px 9px; border-radius: 20px; margin-left: 8px; }
+
+.breed-origin {
+    color: #777;
+    font-size: 0.82rem;
+    margin-bottom: 8px;
+}
+
+.breed-description {
+    color: #444;
+    font-size: 0.87rem;
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.btn-sample {
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+}
+
+.btn-export {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.stats-bar {
+    background-color: white;
+    padding: 18px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.stat-num-blue { font-size: 1.5rem; font-weight: bold; color: #3b82f6; margin-bottom: 2px; }
+.stat-num-green { font-size: 1.5rem; font-weight: bold; color: #22c55e; margin-bottom: 2px; }
+.stat-num-orange { font-size: 1.5rem; font-weight: bold; color: #f59e0b; margin-bottom: 2px; }
+.stat-num-red { font-size: 1.5rem; font-weight: bold; color: #f43f5e; margin-bottom: 2px; }
+
+.stat-label {
+    font-size: 0.78rem;
+    color: #777;
+    margin: 0;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.card-green {
+    background-color: #f0fdf4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.card-pink {
+    background-color: #fff1f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.card-subtitle {
+    font-size: 0.78rem;
+    color: #777;
+    margin-bottom: 14px;
+}
+
+.marker-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.marker-row:last-of-type {
+    border-bottom: none;
+}
+
+.marker-name {
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-right: 5px;
+}
+
+.marker-allele { background-color: #e2e8f0; color: #334155; font-size: 0.7rem; padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
+.badge-high-impact { background-color: #fee2e2; color: #b91c1c; font-size: 0.7rem; padding: 1px 7px; border-radius: 20px; }
+.badge-medium-impact { background-color: #fef9c3; color: #b45309; font-size: 0.7rem; padding: 1px 7px; border-radius: 20px; }
+.badge-low-impact { background-color: #dcfce7; color: #15803d; font-size: 0.7rem; padding: 1px 7px; border-radius: 20px; }
+
+.marker-desc {
+    color: #777;
+    font-size: 0.8rem;
+    margin: 2px 0 0 0;
+}
+
+.marker-pct {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.health-row {
+    padding: 12px 0;
+    border-bottom: 1px solid #fce7e7;
+}
+
+.health-row:last-of-type {
+    border-bottom: none;
+}
+
+.health-name {
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-bottom: 2px;
+}
+
+.health-meta {
+    font-size: 0.78rem;
+    color: #777;
+    margin: 0;
+}
+
+.badge-high-risk { background-color: #fee2e2; color: #b91c1c; font-size: 0.72rem; padding: 3px 9px; border-radius: 20px; }
+.badge-moderate-risk { background-color: #fef3c7; color: #b45309; font-size: 0.72rem; padding: 3px 9px; border-radius: 20px; }
+.badge-low-risk { background-color: #dcfce7; color: #15803d; font-size: 0.72rem; padding: 3px 9px; border-radius: 20px; }
+
+.traits-box {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.traits-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trait-row {
+    font-size: 0.8rem;
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+.trait-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-bottom: 2px;
+}
+
+.info-value {
+    font-size: 0.88rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.similar-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.similar-row:last-of-type {
+    border-bottom: none;
+}
+
+.similar-name {
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-bottom: 2px;
+}
+
+.similar-meta {
+    font-size: 0.78rem;
+    color: #888;
+    margin: 0;
+}
+
+.pop-bar-label {
+    font-size: 0.82rem;
+    color: #444;
+    margin-bottom: 3px;
+}
+
+.pop-bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #22c55e;
+    margin-bottom: 12px;
+}
+
+.pop-note {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin: 0;
+}
+
+.view-link-green { color: #22c55e; text-decoration: none; font-size: 0.85rem; }
+.view-link-red { color: #f43f5e; text-decoration: none; font-size: 0.85rem; }
+
+.main-section {
+    padding: 25px 0 40px;
+}

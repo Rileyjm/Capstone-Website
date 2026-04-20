@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navMenu">
                 <ul class="navbar-nav gap-3">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
                 </ul>
@@ -26,14 +26,14 @@
         </div>
     </nav>
 
-    <div class="container mt-3">
+    <div class="container mt-3 mb-2">
         <a href="index.html" class="back-link">← Back to Search</a>
     </div>
 
-    <div class="hero-section mt-2">
+    <div class="hero-section">
         <div class="container">
-            <div class="d-flex align-items-center gap-4">
-                <div class="dog-icon-box">🐶</div>
+            <div class="d-flex gap-4 align-items-center">
+                <div class="dog-icon">🐶</div>
                 <div>
                     <h1>Sample ID: DOG_12345</h1>
                     <p class="meta">Breed: Golden Retriever &nbsp;&nbsp; Age: 3 years &nbsp;&nbsp; Sex: Male</p>
@@ -52,71 +52,78 @@
 
                 <div class="col-12 col-lg-7">
 
-                    <div class="card-section">
-                        <p class="section-title">🧬 Genetic Markers</p>
+                    <div class="card-green">
+                        <p class="card-title">🧬 Genetic Markers</p>
 
                         <div class="marker-row">
-                            <div>
-                                <p class="marker-name mb-0">MC1R</p>
-                                <p class="marker-desc mb-0">Coat color variation</p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="marker-name">MC1R</p>
+                                    <p class="marker-desc">Coat color variation</p>
+                                </div>
+                                <span class="marker-value">A/A</span>
                             </div>
-                            <span class="marker-value">A/A</span>
-                        </div>
-
-                        <div class="marker-row">
-                            <div>
-                                <p class="marker-name mb-0">MITF</p>
-                                <p class="marker-desc mb-0">White spotting pattern</p>
-                            </div>
-                            <span class="marker-value">G/T</span>
                         </div>
 
                         <div class="marker-row">
-                            <div>
-                                <p class="marker-name mb-0">POMC</p>
-                                <p class="marker-desc mb-0">Body weight regulation</p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="marker-name">MITF</p>
+                                    <p class="marker-desc">White spotting pattern</p>
+                                </div>
+                                <span class="marker-value">G/T</span>
                             </div>
-                            <span class="marker-value">C/C</span>
                         </div>
 
                         <div class="marker-row">
-                            <div>
-                                <p class="marker-name mb-0">FGF5</p>
-                                <p class="marker-desc mb-0">Hair length</p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="marker-name">POMC</p>
+                                    <p class="marker-desc">Body weight regulation</p>
+                                </div>
+                                <span class="marker-value">C/C</span>
                             </div>
-                            <span class="marker-value">T/T</span>
                         </div>
 
-                        <div class="mt-3">
-                            <a href="#" class="view-all-link">View all 247 markers →</a>
+                        <div class="marker-row">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="marker-name">FGF5</p>
+                                    <p class="marker-desc">Hair length</p>
+                                </div>
+                                <span class="marker-value">T/T</span>
+                            </div>
                         </div>
+
+                        <br>
+                        <a href="#" class="view-link">View all 247 markers →</a>
                     </div>
 
-                    <div class="card-section">
-                        <p class="section-title">📄 SNP Summary</p>
+                    <div class="card-white">
+                        <p class="card-title">📄 SNP Summary</p>
                         <div class="row g-3">
                             <div class="col-6">
                                 <div class="stat-box">
                                     <p class="stat-number">1,247</p>
-                                    <p class="stat-label mb-0">Total SNPs Identified</p>
+                                    <p class="stat-label">Total SNPs Identified</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="stat-box">
                                     <p class="stat-number">89</p>
-                                    <p class="stat-label mb-0">Phenotype Associations</p>
+                                    <p class="stat-label">Phenotype Associations</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="stat-box">
                                     <p class="stat-number">12</p>
-                                    <p class="stat-label mb-0">Disease Markers</p>
+                                    <p class="stat-label">Disease Markers</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="stat-box">
                                     <p class="stat-number">156</p>
-                                    <p class="stat-label mb-0">Breed-Specific SNPs</p>
+                                    <p class="stat-label">Breed-Specific SNPs</p>
                                 </div>
                             </div>
                         </div>
@@ -126,86 +133,78 @@
 
                 <div class="col-12 col-lg-5">
 
-                    <div class="card-section" style="background-color: #fff1f2;">
-                        <p class="section-title">❤️ Health Associations</p>
+                    <div class="card-pink">
+                        <p class="card-title">❤️ Health Associations</p>
 
-                        <div class="health-item">
-                            <div>
-                                <p class="health-name mb-0">Hip Dysplasia</p>
-                                <p class="health-based mb-0">Based on 4 markers</p>
+                        <div class="health-row">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="health-name">Hip Dysplasia</p>
+                                    <p class="health-based">Based on 4 markers</p>
+                                </div>
+                                <span class="badge-low-risk">Low Risk</span>
                             </div>
-                            <span class="badge-low-risk">Low Risk</span>
                         </div>
 
-                        <div class="health-item">
-                            <div>
-                                <p class="health-name mb-0">PRA (Progressive Retinal Atrophy)</p>
-                                <p class="health-based mb-0">Based on 2 markers</p>
+                        <div class="health-row">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="health-name">PRA (Progressive Retinal Atrophy)</p>
+                                    <p class="health-based">Based on 2 markers</p>
+                                </div>
+                                <span class="badge-carrier">Carrier</span>
                             </div>
-                            <span class="badge-carrier">Carrier</span>
                         </div>
 
-                        <div class="health-item">
-                            <div>
-                                <p class="health-name mb-0">Von Willebrand Disease</p>
-                                <p class="health-based mb-0">Based on 3 markers</p>
+                        <div class="health-row">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="health-name">Von Willebrand Disease</p>
+                                    <p class="health-based">Based on 3 markers</p>
+                                </div>
+                                <span class="badge-clear">Clear</span>
                             </div>
-                            <span class="badge-clear">Clear</span>
                         </div>
 
-                        <div class="health-item">
-                            <div>
-                                <p class="health-name mb-0">Degenerative Myelopathy</p>
-                                <p class="health-based mb-0">Based on 1 marker</p>
+                        <div class="health-row">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="health-name">Degenerative Myelopathy</p>
+                                    <p class="health-based">Based on 1 marker</p>
+                                </div>
+                                <span class="badge-clear">Clear</span>
                             </div>
-                            <span class="badge-clear">Clear</span>
                         </div>
 
-                        <div class="mt-3">
-                            <a href="#" class="view-health-link">View all health reports →</a>
-                        </div>
+                        <br>
+                        <a href="#" class="view-link-red">View all health reports →</a>
                     </div>
 
-                    <div class="card-section" style="background-color: #fffbeb;">
-                        <p class="section-title">🐶 Breed Composition</p>
+                    <div class="card-yellow">
+                        <p class="card-title">🐶 Breed Composition</p>
 
-                        <div class="breed-bar-label">
-                            <span>Golden Retriever</span>
-                            <span>87.5%</span>
+                        <div class="d-flex justify-content-between breed-bar-label">
+                            <span>Golden Retriever</span><span>87.5%</span>
                         </div>
-                        <div class="breed-bar bar-golden"></div>
+                        <div class="breed-bar" style="width: 87.5%;"></div>
 
-                        <div class="breed-bar-label">
-                            <span>Labrador Retriever</span>
-                            <span>10.2%</span>
+                        <div class="d-flex justify-content-between breed-bar-label">
+                            <span>Labrador Retriever</span><span>10.2%</span>
                         </div>
-                        <div class="breed-bar bar-labrador"></div>
+                        <div class="breed-bar" style="width: 10.2%;"></div>
 
-                        <div class="breed-bar-label">
-                            <span>Other</span>
-                            <span>2.3%</span>
+                        <div class="d-flex justify-content-between breed-bar-label">
+                            <span>Other</span><span>2.3%</span>
                         </div>
-                        <div class="breed-bar bar-other"></div>
+                        <div class="breed-bar" style="width: 2.3%;"></div>
                     </div>
 
-                    <div class="data-source-box">
-                        <p class="ds-title">Data Source</p>
-                        <div class="ds-row">
-                            <span>Platform:</span>
-                            <span>Illumina</span>
-                        </div>
-                        <div class="ds-row">
-                            <span>Array:</span>
-                            <span>CanineHD</span>
-                        </div>
-                        <div class="ds-row">
-                            <span>Date:</span>
-                            <span>Mar 15, 2026</span>
-                        </div>
-                        <div class="ds-row">
-                            <span>Format:</span>
-                            <span>IDAT → VCF</span>
-                        </div>
+                    <div class="card-white">
+                        <p class="card-title">Data Source</p>
+                        <div class="ds-row d-flex justify-content-between"><span>Platform:</span><span>Illumina</span></div>
+                        <div class="ds-row d-flex justify-content-between"><span>Array:</span><span>CanineHD</span></div>
+                        <div class="ds-row d-flex justify-content-between"><span>Date:</span><span>Mar 15, 2026</span></div>
+                        <div class="ds-row d-flex justify-content-between"><span>Format:</span><span>IDAT → VCF</span></div>
                     </div>
 
                 </div>
